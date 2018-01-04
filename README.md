@@ -26,3 +26,6 @@ cpp project.
 NetConnectionClassName=/Script/YourGame.TankIpConnection
 
 4. build the game, launch on the iphone or ipad device.
+
+
+If you have any question, feel free to email me:feixuwu@outlook.com
