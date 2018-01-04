@@ -24,6 +24,7 @@ cpp project.
 3. edit the Config/DefaultEngine.ini, add content:
 
   [/Script/OnlineSubsystemUtils.IpNetDriver]
+  
 NetConnectionClassName=/Script/YourGame.TankIpConnection
 
 4. build the game, launch on the iphone or ipad device.
