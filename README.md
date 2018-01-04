@@ -9,6 +9,8 @@ the game in my dns64/nat64 env.
 So I share the code for every one who have the same problem:
 your game connect the dedicated server on the remote, and by default, you can not connect under ipv6.
 
+I test on Unreal Engine 4 4.18.2
+
 
 # How to use it
 
