@@ -4,12 +4,13 @@ AppStore require every app support ipv6, when I develop a .io game, my agame rej
 the reason is the game is not support ipv6, it will stay on loading screen when they test under ipv6.
 
 I google and found almost no one give an answer, So I read the engine code, and finaly fix it, I test 
-the game in my dns64/nat64 env.
+the game in my dns64/nat64 env. the reason is the engine have a bug on ipv6 connect on ios, maybe the 
+later new version engine(I use current 4.18.2) will fix it.
 
 So I share the code for every one who have the same problem:
 your game connect the dedicated server on the remote, and by default, you can not connect under ipv6.
 
-I test on Unreal Engine 4 4.18.2
+I test on Unreal Engine 4 4.18.2.
 
 
 # How to use it
